@@ -1,0 +1,15 @@
+commonAnnotations: 
+  rafay.dev/registry-kee394k: "demo-registry"
+image:
+  registry: docker.io
+  repository: jerseymec/nginx-portfolio
+  tag: 0.2
+  pullPolicy: Always
+replicaCount: 2
+containerPorts:
+  http: 80
+service:
+  type: ClusterIP
+ingress:
+  enabled: true
+  hostname: "nginx-demo.dev.bxdata.com"
