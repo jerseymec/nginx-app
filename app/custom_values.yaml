@@ -5,7 +5,7 @@ image:
   repository: jerseymec/nginx-portfolio
   tag: 0.3
   pullPolicy: Always
-replicaCount: 3
+replicaCount: 4
 containerPorts:
   http: 80
 service:
