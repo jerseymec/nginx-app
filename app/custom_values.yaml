@@ -1,9 +1,9 @@
-commonAnnotations: 
+commonAnnotations:
   rafay.dev/registry-kee394k: "demo-registry"
 image:
   registry: docker.io
   repository: jerseymec/nginx-portfolio
-  tag: 0.3
+  tag: 987165d05fa7a0d36edbf7dd74974d2c0817aad7
   pullPolicy: Always
 replicaCount: 4
 containerPorts:
