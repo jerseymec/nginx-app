@@ -3,7 +3,7 @@ commonAnnotations:
 image:
   registry: docker.io
   repository: jerseymec/nginx-portfolio
-  tag: sha-191a7394755556ee4253c47a41f9120b438e339a
+  tag: sha-291111165abc13fbb53042aacbc40bf9af70ac1a
   pullPolicy: Always
 replicaCount: 4
 containerPorts:
